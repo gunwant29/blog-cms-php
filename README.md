@@ -56,9 +56,3 @@ CREATE TABLE posts (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-Visit in your browser:
-http://localhost/BlogCMS
-
-
-🙋 Author
-Gunwant Patil
