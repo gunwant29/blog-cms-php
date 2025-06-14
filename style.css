@@ -71,3 +71,23 @@ form input, form textarea {
 @keyframes fade-in {
   to { opacity: 1; }
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e0ecf6, #f9fafe);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  width: 100%;
+}

@@ -14,6 +14,7 @@ $result = mysqli_query($con, "SELECT * FROM posts ORDER BY created_at DESC");
   <meta charset="UTF-8">
   <title>Blog CMS</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
