@@ -91,3 +91,38 @@ body {
   max-width: 850px;
   width: 100%;
 }
+.simple-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+}
+
+.simple-header nav {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.simple-header .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.simple-header .nav-links a {
+  margin-left: 1rem;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.simple-header .nav-links a:hover {
+  color: #2c80b4;
+}

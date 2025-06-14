@@ -17,6 +17,16 @@ $result = mysqli_query($con, "SELECT * FROM posts ORDER BY created_at DESC");
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="simple-header">
+  <nav>
+    <h1 class="logo">Blog CMS</h1>
+    <div class="nav-links">
+      <a href="index.php">Home</a>
+      <a href="create.php">New Post</a>
+    </div>
+  </nav>
+</header>
+
 <div class="container">
   <h1>My Blog</h1>
   <a class="btn primary" href="create.php">+ New Post</a>
